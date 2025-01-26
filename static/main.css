@@ -1,0 +1,15 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    text-align:center;
+    align-items: center;
+}
+.meme{
+    border: #ccc 1px solid;
+    padding: 15px;
+    margin: 15px;
+    background: #fff;
+    width: 300px;
+}

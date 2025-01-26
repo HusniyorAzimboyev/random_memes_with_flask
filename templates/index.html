@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+</head>
+<body>
+    <h1>Your random meme is here:</h1>
+    <img src="{{meme['url']}}" alt="" class="meme"><br>
+    <a href="/"><button class="refresh_meme">New meme</button></a>
+</body>
+</html>
